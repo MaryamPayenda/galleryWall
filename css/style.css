@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Oi-Regular;
+  src: url(../fonts/Oi/Oi-Regular.ttf);
+}
 img {
   background-color: white;
   padding: 5px 5px 40px 5px;
@@ -37,4 +41,7 @@ img {
   top: 50vh;
   right: 80vh;
   z-index: 4;
+}
+h3 {
+  font-family: Oi-Regular;
 }
