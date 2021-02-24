@@ -1,0 +1,45 @@
+img {
+  padding: 5px 5px 40px 5px;
+  height: 12rem;
+  width: 19rem;
+  border: black 1px solid;
+  opacity: 0.7;
+  border-radius: 2px;
+  float: right;
+  filter: grayscale(100px);
+}
+.first {
+  position: relative;
+  top: 13vh;
+  right: 30vh;
+  transform: rotate(-20deg);
+  display: block;
+  z-index: -1;
+}
+
+.second {
+  transform: rotate(10deg);
+  display: block;
+  position: absolute;
+  top: 30vh;
+  right: 32vh;
+  z-index: 1;
+}
+
+.third {
+  transform: rotate(10deg);
+  display: block;
+  position: absolute;
+  top: 40vh;
+  right: 60vh;
+  z-index: 2;
+}
+
+.fourth {
+  transform: rotate(2deg);
+  display: block;
+  position: absolute;
+  top: 50vh;
+  right: 80vh;
+  z-index: 3;
+}
